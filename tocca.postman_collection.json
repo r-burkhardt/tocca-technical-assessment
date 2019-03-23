@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "37c8eee7-11cc-48fe-8d5e-13c28ffde7b9",
+		"name": "tocca",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User Profile - Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:4900/user_profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4900",
+					"path": [
+						"user_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Profile - Get by User_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:4900/user_profile/TyAyhLX5s1uah7dL0O8u",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4900",
+					"path": [
+						"user_profile",
+						"TyAyhLX5s1uah7dL0O8u"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Profile - Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"lastName\" : \"Hunter\",\n\t\"firstName\" : \"Blake\",\n\t\"birthYear\" : 1991\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4900/user_profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4900",
+					"path": [
+						"user_profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Profile - Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:4900/user_profile/TyAyhLX5s1uah7dL0O8u",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4900",
+					"path": [
+						"user_profile",
+						"TyAyhLX5s1uah7dL0O8u"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Profile - Put",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\" : \"Bowen\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4900/user_profile/MvNC1ULQ826ESxTbjhIb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4900",
+					"path": [
+						"user_profile",
+						"MvNC1ULQ826ESxTbjhIb"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

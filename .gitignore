@@ -1,0 +1,12 @@
+# Node
+node_modules/
+npm-debug.log
+
+/.gitattributes
+/package-lock.json
+.idea/
+/bower_components
+/.prepublish
+/.packager
+/.cicd
+.DS_Store
