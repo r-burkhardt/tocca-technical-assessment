@@ -2,9 +2,9 @@
 
 const express           = require('express');
 const admin             = require('firebase-admin');
-let serviceAccount      = require('./config/tocca-t-a-7ea4a4be4710')
+var serviceAccount      = require('./config/tocca-t-a-7ea4a4be4710'); // email for access to this credentials.
 const bodyParser        = require('body-parser');
-let path                = require('path');
+var path                = require('path');
 
 const app               = express();
 
